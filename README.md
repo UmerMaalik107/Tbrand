@@ -1,2 +1,3 @@
 # TBrand
-Restaurant automation system
+Smart Restaurant
+
