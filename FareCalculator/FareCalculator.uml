@@ -1,0 +1,504 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_5f9rEI-EEe2Ai-NpsAy0jg" name="FareCalculator">
+    <eAnnotations xmi:id="_56TdsI-EEe2Ai-NpsAy0jg" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_56TdsY-EEe2Ai-NpsAy0jg" source="codegen">
+        <details xmi:id="_56Tdso-EEe2Ai-NpsAy0jg" key="codegenDirectory" value="/FareCalculator/src/main/java"/>
+        <details xmi:id="_6K4QUI-EEe2Ai-NpsAy0jg" key="AssociatedSourceCode" value="/FareCalculator/src/main/java/FareCalculator/FareCalculator.java;3303755096/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_6FUa4I-EEe2Ai-NpsAy0jg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_6FUa4Y-EEe2Ai-NpsAy0jg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_6FUa4o-EEe2Ai-NpsAy0jg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_6FVB8I-EEe2Ai-NpsAy0jg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_6FVB8Y-EEe2Ai-NpsAy0jg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_6FVB8o-EEe2Ai-NpsAy0jg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_6FVB84-EEe2Ai-NpsAy0jg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_6FVB9I-EEe2Ai-NpsAy0jg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_6FVpAI-EEe2Ai-NpsAy0jg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_6FXeMI-EEe2Ai-NpsAy0jg" name="java">
+      <packagedElement xmi:type="uml:Package" xmi:id="_6FYFQI-EEe2Ai-NpsAy0jg" name="awt">
+        <packagedElement xmi:type="uml:Package" xmi:id="_6FYsUI-EEe2Ai-NpsAy0jg" name="event">
+          <packagedElement xmi:type="uml:Class" xmi:id="_6GsT4Y-EEe2Ai-NpsAy0jg" name="ActionEvent"/>
+          <packagedElement xmi:type="uml:Interface" xmi:id="_6GtiAY-EEe2Ai-NpsAy0jg" name="ActionListener"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_6GoCcI-EEe2Ai-NpsAy0jg" name="Color"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_6GqesI-EEe2Ai-NpsAy0jg" name="FlowLayout"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_6Grs0I-EEe2Ai-NpsAy0jg" name="GridLayout"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_6FYsUY-EEe2Ai-NpsAy0jg" name="io">
+        <packagedElement xmi:type="uml:Class" xmi:id="_6GuJEY-EEe2Ai-NpsAy0jg" name="FileWriter"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_6FZTYI-EEe2Ai-NpsAy0jg" name="javax">
+      <packagedElement xmi:type="uml:Package" xmi:id="_6FZTYY-EEe2Ai-NpsAy0jg" name="swing">
+        <packagedElement xmi:type="uml:Class" xmi:id="_6GvXMI-EEe2Ai-NpsAy0jg" name="BorderFactory"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_6Gv-QY-EEe2Ai-NpsAy0jg" name="ButtonGroup"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_6GxMYI-EEe2Ai-NpsAy0jg" name="JButton"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_6GxzcY-EEe2Ai-NpsAy0jg" name="JCheckBox"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_6GzBkI-EEe2Ai-NpsAy0jg" name="JComboBox"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_6GzooY-EEe2Ai-NpsAy0jg" name="JFrame"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_6G02wY-EEe2Ai-NpsAy0jg" name="JLabel"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_6G2E4I-EEe2Ai-NpsAy0jg" name="JMenu"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_6G2r8Y-EEe2Ai-NpsAy0jg" name="JMenuBar"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_6G3TAY-EEe2Ai-NpsAy0jg" name="JMenuItem"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_6G36EY-EEe2Ai-NpsAy0jg" name="JPanel"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_6G5IMY-EEe2Ai-NpsAy0jg" name="JTextField"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_6Fh2QI-EEe2Ai-NpsAy0jg" name="FareCalculator">
+      <packagedElement xmi:type="uml:Class" xmi:id="_6FsOUI-EEe2Ai-NpsAy0jg" name="FareCalculator">
+        <ownedAttribute xmi:id="_6HHxsI-EEe2Ai-NpsAy0jg" name="frame" visibility="private" type="_6GzooY-EEe2Ai-NpsAy0jg" association="_6HkdoI-EEe2Ai-NpsAy0jg"/>
+        <ownedAttribute xmi:id="_6HIYwY-EEe2Ai-NpsAy0jg" name="panel" visibility="private" type="_6G36EY-EEe2Ai-NpsAy0jg" association="_6HlEsY-EEe2Ai-NpsAy0jg"/>
+        <ownedAttribute xmi:id="_6HI_0Y-EEe2Ai-NpsAy0jg" name="menuBar" visibility="private" type="_6G2r8Y-EEe2Ai-NpsAy0jg" association="_6HlrwI-EEe2Ai-NpsAy0jg"/>
+        <ownedAttribute xmi:id="_6HJm4Y-EEe2Ai-NpsAy0jg" name="menu" visibility="private" type="_6G2E4I-EEe2Ai-NpsAy0jg" association="_6Hlrw4-EEe2Ai-NpsAy0jg"/>
+        <ownedAttribute xmi:id="_6HKN8I-EEe2Ai-NpsAy0jg" name="red" visibility="private" type="_6G3TAY-EEe2Ai-NpsAy0jg" association="_6HmS0Y-EEe2Ai-NpsAy0jg"/>
+        <ownedAttribute xmi:id="_6HKN8o-EEe2Ai-NpsAy0jg" name="green" visibility="private" type="_6G3TAY-EEe2Ai-NpsAy0jg" association="_6Hm54Y-EEe2Ai-NpsAy0jg"/>
+        <ownedAttribute xmi:id="_6HK1AY-EEe2Ai-NpsAy0jg" name="yellow" visibility="private" type="_6G3TAY-EEe2Ai-NpsAy0jg" association="_6Hng8Y-EEe2Ai-NpsAy0jg"/>
+        <ownedAttribute xmi:id="_6HLcEY-EEe2Ai-NpsAy0jg" name="departLabel" visibility="private" type="_6G02wY-EEe2Ai-NpsAy0jg" association="_6HoIAY-EEe2Ai-NpsAy0jg"/>
+        <ownedAttribute xmi:id="_6HMDII-EEe2Ai-NpsAy0jg" name="StateLabel" visibility="private" type="_6G02wY-EEe2Ai-NpsAy0jg" association="_6HovEI-EEe2Ai-NpsAy0jg"/>
+        <ownedAttribute xmi:id="_6HMqMI-EEe2Ai-NpsAy0jg" name="departCombo" visibility="private" type="_6GzBkI-EEe2Ai-NpsAy0jg" association="_6HovE4-EEe2Ai-NpsAy0jg"/>
+        <ownedAttribute xmi:id="_6HNRQI-EEe2Ai-NpsAy0jg" name="StateCombo" visibility="private" type="_6GzBkI-EEe2Ai-NpsAy0jg" association="_6HpWIY-EEe2Ai-NpsAy0jg"/>
+        <ownedAttribute xmi:id="_6HN4UY-EEe2Ai-NpsAy0jg" name="Class" visibility="private" type="_6G02wY-EEe2Ai-NpsAy0jg" association="_6Hp9MY-EEe2Ai-NpsAy0jg"/>
+        <ownedAttribute xmi:id="_6HOfYY-EEe2Ai-NpsAy0jg" name="economy" visibility="private" type="_6GxzcY-EEe2Ai-NpsAy0jg" association="_6HqkQY-EEe2Ai-NpsAy0jg"/>
+        <ownedAttribute xmi:id="_6HPGcY-EEe2Ai-NpsAy0jg" name="AC" visibility="private" type="_6GxzcY-EEe2Ai-NpsAy0jg" association="_6HqkRI-EEe2Ai-NpsAy0jg"/>
+        <ownedAttribute xmi:id="_6HPtgY-EEe2Ai-NpsAy0jg" name="bGroup" visibility="private" type="_6Gv-QY-EEe2Ai-NpsAy0jg" association="_6HrLUY-EEe2Ai-NpsAy0jg"/>
+        <ownedAttribute xmi:id="_6HQUkY-EEe2Ai-NpsAy0jg" name="arrLabel" visibility="private" type="_6G02wY-EEe2Ai-NpsAy0jg" association="_6HryYY-EEe2Ai-NpsAy0jg"/>
+        <ownedAttribute xmi:id="_6HQ7oY-EEe2Ai-NpsAy0jg" name="arrCombo" visibility="private" type="_6GzBkI-EEe2Ai-NpsAy0jg" association="_6HsZcY-EEe2Ai-NpsAy0jg"/>
+        <ownedAttribute xmi:id="_6HRisY-EEe2Ai-NpsAy0jg" name="seatLabel" visibility="private" type="_6G02wY-EEe2Ai-NpsAy0jg" association="_6HtAgY-EEe2Ai-NpsAy0jg"/>
+        <ownedAttribute xmi:id="_6HSJwY-EEe2Ai-NpsAy0jg" name="seatText" visibility="private" type="_6G5IMY-EEe2Ai-NpsAy0jg" association="_6HtnkI-EEe2Ai-NpsAy0jg"/>
+        <ownedAttribute xmi:id="_6HSJw4-EEe2Ai-NpsAy0jg" name="computeFare" visibility="private" type="_6GxMYI-EEe2Ai-NpsAy0jg" association="_6Htnk4-EEe2Ai-NpsAy0jg"/>
+        <ownedAttribute xmi:id="_6HSw0Y-EEe2Ai-NpsAy0jg" name="totalFare" visibility="private" type="_6G02wY-EEe2Ai-NpsAy0jg" association="_6HuOoY-EEe2Ai-NpsAy0jg"/>
+        <ownedAttribute xmi:id="_6HTX4I-EEe2Ai-NpsAy0jg" name="totalFareText" visibility="private" type="_6G5IMY-EEe2Ai-NpsAy0jg" association="_6Hu1sI-EEe2Ai-NpsAy0jg"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_6HdI4I-EEe2Ai-NpsAy0jg" name="main" specification="_6FyU8I-EEe2Ai-NpsAy0jg">
+          <ownedParameter xmi:id="_6HdI4Y-EEe2Ai-NpsAy0jg" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_6HdI4o-EEe2Ai-NpsAy0jg" value="*"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>new FareCalculator();&#xD;
+     &#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_6HhaUI-EEe2Ai-NpsAy0jg" name="FareCalculator" specification="_6F1YQI-EEe2Ai-NpsAy0jg">
+          <ownedParameter xmi:id="_6HhaUY-EEe2Ai-NpsAy0jg" type="_6FsOUI-EEe2Ai-NpsAy0jg" direction="return"/>
+          <language>java</language>
+          <body>frame = new JFrame (&quot;Fare Calculator&quot;);&#xD;
+     frame.setLayout(new GridLayout(0, 1));&#xD;
+     panel = new JPanel();&#xD;
+     JPanel panel1 = new JPanel();&#xD;
+     JPanel panel2 = new JPanel();&#xD;
+     JPanel panel3 = new JPanel();&#xD;
+     &#xD;
+     &#xD;
+     menuBar = new JMenuBar();&#xD;
+     menu = new JMenu(&quot;Background&quot;);&#xD;
+     red = new JMenuItem(&quot;RED&quot;);&#xD;
+     green = new JMenuItem(&quot;Green&quot;);&#xD;
+     yellow = new JMenuItem(&quot;Yellow&quot;);&#xD;
+     menu.add(red);&#xD;
+     menu.add(green);&#xD;
+     menu.add(yellow);&#xD;
+     menuBar.add(menu);&#xD;
+     &#xD;
+     GridLayout grdLayout = new GridLayout(0, 2);&#xD;
+     &#xD;
+     red.addActionListener(new ActionListener() {&#xD;
+         @Override&#xD;
+         public void actionPerformed(ActionEvent e) {&#xD;
+             panel.setBackground(Color.red);&#xD;
+             panel1.setBackground(Color.red);&#xD;
+             panel2.setBackground(Color.red);&#xD;
+             panel3.setBackground(Color.red);&#xD;
+         }&#xD;
+     });&#xD;
+     &#xD;
+     green.addActionListener(new ActionListener() {&#xD;
+         @Override&#xD;
+         public void actionPerformed(ActionEvent e) {&#xD;
+             panel.setBackground(Color.green);&#xD;
+             panel1.setBackground(Color.green);&#xD;
+             panel2.setBackground(Color.green);&#xD;
+             panel3.setBackground(Color.green);&#xD;
+         }&#xD;
+     });&#xD;
+&#xD;
+     yellow.addActionListener(new ActionListener() {&#xD;
+         @Override&#xD;
+         public void actionPerformed(ActionEvent e) {&#xD;
+             panel.setBackground(Color.yellow);&#xD;
+             panel1.setBackground(Color.yellow);&#xD;
+             panel2.setBackground(Color.yellow);&#xD;
+             panel3.setBackground(Color.yellow);&#xD;
+         }&#xD;
+       &#xD;
+     });&#xD;
+  &#xD;
+     &#xD;
+     departLabel = new JLabel(&quot;Departure city: &quot;);&#xD;
+     StateLabel =new JLabel(&quot;State: &quot;);&#xD;
+     StateCombo= new JComboBox();&#xD;
+     StateCombo.addItem(null);&#xD;
+     StateCombo.addItem(&quot;Khyber Pakhtunkhwa&quot;);&#xD;
+     StateCombo.addItem(&quot;Punjab&quot;);&#xD;
+     departCombo = new JComboBox();&#xD;
+     //departCombo.addItem(&quot;a&quot;);&#xD;
+    &#xD;
+     &#xD;
+     Class = new JLabel(&quot;Class&quot;);&#xD;
+     economy = new JCheckBox(&quot;Economy&quot;);&#xD;
+     AC = new JCheckBox(&quot;AC&quot;);&#xD;
+     bGroup = new ButtonGroup();&#xD;
+     bGroup.add(economy);&#xD;
+     bGroup.add(AC);&#xD;
+     StateCombo.addActionListener(new ActionListener() {&#xD;
+         @Override&#xD;
+         public void actionPerformed(ActionEvent e) {&#xD;
+         	if(StateCombo.getSelectedItem()==&quot;Punjab&quot;)&#xD;
+               {&#xD;
+         		departCombo.removeAllItems();&#xD;
+         		&#xD;
+           		departCombo.addItem(&quot;Lahore&quot;);&#xD;
+                   &#xD;
+                   &#xD;
+               }&#xD;
+               else&#xD;
+               {&#xD;
+             	  departCombo.removeAllItems();&#xD;
+           		&#xD;
+               	departCombo.addItem(&quot;Peshawar&quot;);&#xD;
+                  &#xD;
+                   &#xD;
+               }&#xD;
+&#xD;
+         }&#xD;
+     });&#xD;
+     &#xD;
+     arrLabel = new JLabel(&quot;Arrival City: &quot;);&#xD;
+     arrCombo = new JComboBox();&#xD;
+     arrCombo.addItem(&quot;Islamabad&quot;);&#xD;
+     arrCombo.addItem(&quot;Gujranwala&quot;);&#xD;
+     arrCombo.addItem(&quot;Faisalabad&quot;);&#xD;
+     &#xD;
+     seatLabel = new JLabel(&quot;Total Seats&quot;);&#xD;
+     seatText = new JTextField(&quot;&quot;);&#xD;
+     &#xD;
+     computeFare = new JButton(&quot;Compute Fare&quot;);&#xD;
+     &#xD;
+     computeFare.addActionListener(new ActionListener() {&#xD;
+         @Override&#xD;
+         public void actionPerformed(ActionEvent e) {&#xD;
+             int eco = 0;&#xD;
+             int acClass = 0;&#xD;
+             int seatNum = 0;&#xD;
+             &#xD;
+             try {&#xD;
+                 if (seatText.getText().equals(&quot;&quot;)) {&#xD;
+                     totalFareText.setText(&quot;missing input. Try Again&quot;);&#xD;
+                 }&#xD;
+                 else {&#xD;
+                     seatNum = Integer.parseInt(seatText.getText().trim());&#xD;
+                     if (departCombo.getSelectedItem() == &quot;Lahore&quot; ) {&#xD;
+                         if (arrCombo.getSelectedItem() == &quot;Islamabad&quot;) {&#xD;
+                             eco = 500;&#xD;
+                             acClass = 1000;&#xD;
+                             if (economy.isSelected()) {&#xD;
+                                 totalFareText.setText(String.format(&quot;%d&quot;, eco*seatNum));&#xD;
+                             }&#xD;
+                             else if (AC.isSelected()) {&#xD;
+                                 totalFareText.setText(String.format(&quot;%d&quot;, acClass*seatNum));&#xD;
+                             }&#xD;
+                             else {&#xD;
+                                 totalFareText.setText(&quot;missing input. Try Again&quot;);&#xD;
+                             }&#xD;
+                         }&#xD;
+                         else if (arrCombo.getSelectedItem() == &quot;Gujranwala&quot;) {&#xD;
+                             eco = 600;&#xD;
+                             acClass = 1500;&#xD;
+                             if (economy.isSelected()) {&#xD;
+                                 totalFareText.setText(String.format(&quot;%d&quot;, eco*seatNum));&#xD;
+                             }&#xD;
+                             else if (AC.isSelected()) {&#xD;
+                                 totalFareText.setText(String.format(&quot;%d&quot;, acClass*seatNum));&#xD;
+                             }&#xD;
+                             else {&#xD;
+                                 totalFareText.setText(&quot;missing input. Try Again&quot;);&#xD;
+                             }&#xD;
+                         }&#xD;
+                         else if (arrCombo.getSelectedItem() == &quot;Faisalabad&quot;) {&#xD;
+                             eco = 700;&#xD;
+                             acClass = 200;&#xD;
+                             if (economy.isSelected()) {&#xD;
+                                 totalFareText.setText(String.format(&quot;%d&quot;, eco*seatNum));&#xD;
+                             }&#xD;
+                             else if (AC.isSelected()) {&#xD;
+                                 totalFareText.setText(String.format(&quot;%d&quot;, acClass*seatNum));&#xD;
+                             }&#xD;
+                             else {&#xD;
+                                 totalFareText.setText(&quot;missing input. Try Again&quot;);&#xD;
+                             }&#xD;
+                             &#xD;
+                         }&#xD;
+                     FileWriter file = new FileWriter(&quot;output.txt&quot;);&#xD;
+                     file.write(totalFareText.getText());&#xD;
+                     file.close();&#xD;
+                     }&#xD;
+                     &#xD;
+                     else if (departCombo.getSelectedItem() == &quot;Peshawar&quot; ) {&#xD;
+                         if (arrCombo.getSelectedItem() == &quot;Islamabad&quot;) {&#xD;
+                             eco = 500;&#xD;
+                             acClass = 1000;&#xD;
+                             if (economy.isSelected()) {&#xD;
+                                 totalFareText.setText(String.format(&quot;%d&quot;, eco*seatNum));&#xD;
+                             }&#xD;
+                             else if (AC.isSelected()) {&#xD;
+                                 totalFareText.setText(String.format(&quot;%d&quot;, acClass*seatNum));&#xD;
+                             }&#xD;
+                             else {&#xD;
+                                 totalFareText.setText(&quot;missing input. Try Again&quot;);&#xD;
+                             }&#xD;
+                         }&#xD;
+                         else if (arrCombo.getSelectedItem() == &quot;Gujranwala&quot;) {&#xD;
+                             eco = 600;&#xD;
+                             acClass = 1500;&#xD;
+                             if (economy.isSelected()) {&#xD;
+                                 totalFareText.setText(String.format(&quot;%d&quot;, eco*seatNum));&#xD;
+                             }&#xD;
+                             else if (AC.isSelected()) {&#xD;
+                                 totalFareText.setText(String.format(&quot;%d&quot;, acClass*seatNum));&#xD;
+                             }&#xD;
+                             else {&#xD;
+                                 totalFareText.setText(&quot;missing input. Try Again&quot;);&#xD;
+                             }&#xD;
+                         }&#xD;
+                         else if (arrCombo.getSelectedItem() == &quot;Faisalabad&quot;) {&#xD;
+                             eco = 700;&#xD;
+                             acClass = 200;&#xD;
+                             if (economy.isSelected()) {&#xD;
+                                 totalFareText.setText(String.format(&quot;%d&quot;, eco*seatNum));&#xD;
+                             }&#xD;
+                             else if (AC.isSelected()) {&#xD;
+                                 totalFareText.setText(String.format(&quot;%d&quot;, acClass*seatNum));&#xD;
+                             }&#xD;
+                             else {&#xD;
+                                 totalFareText.setText(&quot;missing input. Try Again&quot;);&#xD;
+                             }&#xD;
+                         }&#xD;
+                     FileWriter file = new FileWriter(&quot;output.txt&quot;);&#xD;
+                     file.write(totalFareText.getText());&#xD;
+                     file.close();&#xD;
+                     }&#xD;
+                 }&#xD;
+             } catch (Exception ex) {&#xD;
+                 System.out.println(ex);&#xD;
+             }&#xD;
+         }   &#xD;
+     });&#xD;
+     &#xD;
+     totalFare = new JLabel(&quot;Total Fare&quot;);&#xD;
+     totalFareText = new JTextField(&quot;&quot;);&#xD;
+     &#xD;
+     frame.add(panel);&#xD;
+     frame.add(panel1);&#xD;
+     frame.add(panel3);&#xD;
+     frame.add(panel2);&#xD;
+&#xD;
+     panel.setBorder(BorderFactory.createEmptyBorder(50, 50, 0, 50));&#xD;
+     panel3.setBorder(BorderFactory.createEmptyBorder(50, 50, 0, 50));&#xD;
+     panel.setLayout(grdLayout);&#xD;
+     panel.add(StateLabel);&#xD;
+     panel.add(StateCombo);&#xD;
+     panel.add(departLabel);&#xD;
+     &#xD;
+     panel.add(departCombo);&#xD;
+     panel1.add(Class);&#xD;
+     panel1.add(economy);&#xD;
+     panel1.add(AC);&#xD;
+     panel.add(arrLabel);&#xD;
+     panel.add(arrCombo);&#xD;
+     panel.add(seatLabel);&#xD;
+     panel.add(seatText);&#xD;
+     panel2.setLayout(new FlowLayout());&#xD;
+     panel2.add(computeFare);&#xD;
+     panel3.add(totalFare);&#xD;
+     panel3.add(totalFareText);&#xD;
+     panel3.setLayout(new GridLayout(0, 2));&#xD;
+     &#xD;
+     frame.setBounds(0, 0, 800, 550);&#xD;
+     frame.setJMenuBar(menuBar);&#xD;
+     frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);&#xD;
+     frame.setVisible(true);&#xD;
+     &#xD;
+ </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_6FyU8I-EEe2Ai-NpsAy0jg" name="main" isStatic="true" method="_6HdI4I-EEe2Ai-NpsAy0jg">
+          <ownedParameter xmi:id="_6Fy8AI-EEe2Ai-NpsAy0jg" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_6F0xMI-EEe2Ai-NpsAy0jg" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_6F1YQI-EEe2Ai-NpsAy0jg" name="FareCalculator" method="_6HhaUI-EEe2Ai-NpsAy0jg">
+          <eAnnotations xmi:id="_6F1_UI-EEe2Ai-NpsAy0jg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_6F1_UY-EEe2Ai-NpsAy0jg" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_6F1_Uo-EEe2Ai-NpsAy0jg" type="_6FsOUI-EEe2Ai-NpsAy0jg" direction="return"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_6HkdoI-EEe2Ai-NpsAy0jg" name="" memberEnd="_6HkdoY-EEe2Ai-NpsAy0jg _6HHxsI-EEe2Ai-NpsAy0jg">
+        <ownedEnd xmi:id="_6HkdoY-EEe2Ai-NpsAy0jg" name="" type="_6FsOUI-EEe2Ai-NpsAy0jg" association="_6HkdoI-EEe2Ai-NpsAy0jg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_6HlEsY-EEe2Ai-NpsAy0jg" name="" memberEnd="_6HlEso-EEe2Ai-NpsAy0jg _6HIYwY-EEe2Ai-NpsAy0jg">
+        <ownedEnd xmi:id="_6HlEso-EEe2Ai-NpsAy0jg" name="" type="_6FsOUI-EEe2Ai-NpsAy0jg" association="_6HlEsY-EEe2Ai-NpsAy0jg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_6HlrwI-EEe2Ai-NpsAy0jg" name="" memberEnd="_6HlrwY-EEe2Ai-NpsAy0jg _6HI_0Y-EEe2Ai-NpsAy0jg">
+        <ownedEnd xmi:id="_6HlrwY-EEe2Ai-NpsAy0jg" name="" type="_6FsOUI-EEe2Ai-NpsAy0jg" association="_6HlrwI-EEe2Ai-NpsAy0jg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_6Hlrw4-EEe2Ai-NpsAy0jg" name="" memberEnd="_6HlrxI-EEe2Ai-NpsAy0jg _6HJm4Y-EEe2Ai-NpsAy0jg">
+        <ownedEnd xmi:id="_6HlrxI-EEe2Ai-NpsAy0jg" name="" type="_6FsOUI-EEe2Ai-NpsAy0jg" association="_6Hlrw4-EEe2Ai-NpsAy0jg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_6HmS0Y-EEe2Ai-NpsAy0jg" name="" memberEnd="_6HmS0o-EEe2Ai-NpsAy0jg _6HKN8I-EEe2Ai-NpsAy0jg">
+        <ownedEnd xmi:id="_6HmS0o-EEe2Ai-NpsAy0jg" name="" type="_6FsOUI-EEe2Ai-NpsAy0jg" association="_6HmS0Y-EEe2Ai-NpsAy0jg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_6Hm54Y-EEe2Ai-NpsAy0jg" name="" memberEnd="_6Hm54o-EEe2Ai-NpsAy0jg _6HKN8o-EEe2Ai-NpsAy0jg">
+        <ownedEnd xmi:id="_6Hm54o-EEe2Ai-NpsAy0jg" name="" type="_6FsOUI-EEe2Ai-NpsAy0jg" association="_6Hm54Y-EEe2Ai-NpsAy0jg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_6Hng8Y-EEe2Ai-NpsAy0jg" name="" memberEnd="_6Hng8o-EEe2Ai-NpsAy0jg _6HK1AY-EEe2Ai-NpsAy0jg">
+        <ownedEnd xmi:id="_6Hng8o-EEe2Ai-NpsAy0jg" name="" type="_6FsOUI-EEe2Ai-NpsAy0jg" association="_6Hng8Y-EEe2Ai-NpsAy0jg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_6HoIAY-EEe2Ai-NpsAy0jg" name="" memberEnd="_6HoIAo-EEe2Ai-NpsAy0jg _6HLcEY-EEe2Ai-NpsAy0jg">
+        <ownedEnd xmi:id="_6HoIAo-EEe2Ai-NpsAy0jg" name="" type="_6FsOUI-EEe2Ai-NpsAy0jg" association="_6HoIAY-EEe2Ai-NpsAy0jg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_6HovEI-EEe2Ai-NpsAy0jg" name="" memberEnd="_6HovEY-EEe2Ai-NpsAy0jg _6HMDII-EEe2Ai-NpsAy0jg">
+        <ownedEnd xmi:id="_6HovEY-EEe2Ai-NpsAy0jg" name="" type="_6FsOUI-EEe2Ai-NpsAy0jg" association="_6HovEI-EEe2Ai-NpsAy0jg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_6HovE4-EEe2Ai-NpsAy0jg" name="" memberEnd="_6HovFI-EEe2Ai-NpsAy0jg _6HMqMI-EEe2Ai-NpsAy0jg">
+        <ownedEnd xmi:id="_6HovFI-EEe2Ai-NpsAy0jg" name="" type="_6FsOUI-EEe2Ai-NpsAy0jg" association="_6HovE4-EEe2Ai-NpsAy0jg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_6HpWIY-EEe2Ai-NpsAy0jg" name="" memberEnd="_6HpWIo-EEe2Ai-NpsAy0jg _6HNRQI-EEe2Ai-NpsAy0jg">
+        <ownedEnd xmi:id="_6HpWIo-EEe2Ai-NpsAy0jg" name="" type="_6FsOUI-EEe2Ai-NpsAy0jg" association="_6HpWIY-EEe2Ai-NpsAy0jg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_6Hp9MY-EEe2Ai-NpsAy0jg" name="" memberEnd="_6Hp9Mo-EEe2Ai-NpsAy0jg _6HN4UY-EEe2Ai-NpsAy0jg">
+        <ownedEnd xmi:id="_6Hp9Mo-EEe2Ai-NpsAy0jg" name="" type="_6FsOUI-EEe2Ai-NpsAy0jg" association="_6Hp9MY-EEe2Ai-NpsAy0jg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_6HqkQY-EEe2Ai-NpsAy0jg" name="" memberEnd="_6HqkQo-EEe2Ai-NpsAy0jg _6HOfYY-EEe2Ai-NpsAy0jg">
+        <ownedEnd xmi:id="_6HqkQo-EEe2Ai-NpsAy0jg" name="" type="_6FsOUI-EEe2Ai-NpsAy0jg" association="_6HqkQY-EEe2Ai-NpsAy0jg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_6HqkRI-EEe2Ai-NpsAy0jg" name="" memberEnd="_6HqkRY-EEe2Ai-NpsAy0jg _6HPGcY-EEe2Ai-NpsAy0jg">
+        <ownedEnd xmi:id="_6HqkRY-EEe2Ai-NpsAy0jg" name="" type="_6FsOUI-EEe2Ai-NpsAy0jg" association="_6HqkRI-EEe2Ai-NpsAy0jg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_6HrLUY-EEe2Ai-NpsAy0jg" name="" memberEnd="_6HrLUo-EEe2Ai-NpsAy0jg _6HPtgY-EEe2Ai-NpsAy0jg">
+        <ownedEnd xmi:id="_6HrLUo-EEe2Ai-NpsAy0jg" name="" type="_6FsOUI-EEe2Ai-NpsAy0jg" association="_6HrLUY-EEe2Ai-NpsAy0jg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_6HryYY-EEe2Ai-NpsAy0jg" name="" memberEnd="_6HryYo-EEe2Ai-NpsAy0jg _6HQUkY-EEe2Ai-NpsAy0jg">
+        <ownedEnd xmi:id="_6HryYo-EEe2Ai-NpsAy0jg" name="" type="_6FsOUI-EEe2Ai-NpsAy0jg" association="_6HryYY-EEe2Ai-NpsAy0jg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_6HsZcY-EEe2Ai-NpsAy0jg" name="" memberEnd="_6HsZco-EEe2Ai-NpsAy0jg _6HQ7oY-EEe2Ai-NpsAy0jg">
+        <ownedEnd xmi:id="_6HsZco-EEe2Ai-NpsAy0jg" name="" type="_6FsOUI-EEe2Ai-NpsAy0jg" association="_6HsZcY-EEe2Ai-NpsAy0jg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_6HtAgY-EEe2Ai-NpsAy0jg" name="" memberEnd="_6HtAgo-EEe2Ai-NpsAy0jg _6HRisY-EEe2Ai-NpsAy0jg">
+        <ownedEnd xmi:id="_6HtAgo-EEe2Ai-NpsAy0jg" name="" type="_6FsOUI-EEe2Ai-NpsAy0jg" association="_6HtAgY-EEe2Ai-NpsAy0jg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_6HtnkI-EEe2Ai-NpsAy0jg" name="" memberEnd="_6HtnkY-EEe2Ai-NpsAy0jg _6HSJwY-EEe2Ai-NpsAy0jg">
+        <ownedEnd xmi:id="_6HtnkY-EEe2Ai-NpsAy0jg" name="" type="_6FsOUI-EEe2Ai-NpsAy0jg" association="_6HtnkI-EEe2Ai-NpsAy0jg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_6Htnk4-EEe2Ai-NpsAy0jg" name="" memberEnd="_6HtnlI-EEe2Ai-NpsAy0jg _6HSJw4-EEe2Ai-NpsAy0jg">
+        <ownedEnd xmi:id="_6HtnlI-EEe2Ai-NpsAy0jg" name="" type="_6FsOUI-EEe2Ai-NpsAy0jg" association="_6Htnk4-EEe2Ai-NpsAy0jg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_6HuOoY-EEe2Ai-NpsAy0jg" name="" memberEnd="_6HuOoo-EEe2Ai-NpsAy0jg _6HSw0Y-EEe2Ai-NpsAy0jg">
+        <ownedEnd xmi:id="_6HuOoo-EEe2Ai-NpsAy0jg" name="" type="_6FsOUI-EEe2Ai-NpsAy0jg" association="_6HuOoY-EEe2Ai-NpsAy0jg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_6Hu1sI-EEe2Ai-NpsAy0jg" name="" memberEnd="_6Hu1sY-EEe2Ai-NpsAy0jg _6HTX4I-EEe2Ai-NpsAy0jg">
+        <ownedEnd xmi:id="_6Hu1sY-EEe2Ai-NpsAy0jg" name="" type="_6FsOUI-EEe2Ai-NpsAy0jg" association="_6Hu1sI-EEe2Ai-NpsAy0jg"/>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:id="_56VS4I-EEe2Ai-NpsAy0jg">
+      <eAnnotations xmi:id="_56aLYI-EEe2Ai-NpsAy0jg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_56fq8I-EEe2Ai-NpsAy0jg" base_Package="_5f9rEI-EEe2Ai-NpsAy0jg">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <UMLLabProfile:Reference xmi:id="_6GpQkI-EEe2Ai-NpsAy0jg" base_Element="_6GoCcI-EEe2Ai-NpsAy0jg"/>
+  <UMLLabProfile:Reference xmi:id="_6GrFwI-EEe2Ai-NpsAy0jg" base_Element="_6GqesI-EEe2Ai-NpsAy0jg"/>
+  <UMLLabProfile:Reference xmi:id="_6GsT4I-EEe2Ai-NpsAy0jg" base_Element="_6Grs0I-EEe2Ai-NpsAy0jg"/>
+  <UMLLabProfile:Reference xmi:id="_6GtiAI-EEe2Ai-NpsAy0jg" base_Element="_6GsT4Y-EEe2Ai-NpsAy0jg"/>
+  <UMLLabProfile:Reference xmi:id="_6GuJEI-EEe2Ai-NpsAy0jg" base_Element="_6GtiAY-EEe2Ai-NpsAy0jg"/>
+  <UMLLabProfile:Reference xmi:id="_6GuwII-EEe2Ai-NpsAy0jg" base_Element="_6GuJEY-EEe2Ai-NpsAy0jg"/>
+  <UMLLabProfile:Reference xmi:id="_6Gv-QI-EEe2Ai-NpsAy0jg" base_Element="_6GvXMI-EEe2Ai-NpsAy0jg"/>
+  <UMLLabProfile:Reference xmi:id="_6GwlUI-EEe2Ai-NpsAy0jg" base_Element="_6Gv-QY-EEe2Ai-NpsAy0jg"/>
+  <UMLLabProfile:Reference xmi:id="_6GxzcI-EEe2Ai-NpsAy0jg" base_Element="_6GxMYI-EEe2Ai-NpsAy0jg"/>
+  <UMLLabProfile:Reference xmi:id="_6GyagI-EEe2Ai-NpsAy0jg" base_Element="_6GxzcY-EEe2Ai-NpsAy0jg"/>
+  <UMLLabProfile:Reference xmi:id="_6GzooI-EEe2Ai-NpsAy0jg" base_Element="_6GzBkI-EEe2Ai-NpsAy0jg"/>
+  <UMLLabProfile:Reference xmi:id="_6G02wI-EEe2Ai-NpsAy0jg" base_Element="_6GzooY-EEe2Ai-NpsAy0jg"/>
+  <UMLLabProfile:Reference xmi:id="_6G1d0I-EEe2Ai-NpsAy0jg" base_Element="_6G02wY-EEe2Ai-NpsAy0jg"/>
+  <UMLLabProfile:Reference xmi:id="_6G2r8I-EEe2Ai-NpsAy0jg" base_Element="_6G2E4I-EEe2Ai-NpsAy0jg"/>
+  <UMLLabProfile:Reference xmi:id="_6G3TAI-EEe2Ai-NpsAy0jg" base_Element="_6G2r8Y-EEe2Ai-NpsAy0jg"/>
+  <UMLLabProfile:Reference xmi:id="_6G36EI-EEe2Ai-NpsAy0jg" base_Element="_6G3TAY-EEe2Ai-NpsAy0jg"/>
+  <UMLLabProfile:Reference xmi:id="_6G5IMI-EEe2Ai-NpsAy0jg" base_Element="_6G36EY-EEe2Ai-NpsAy0jg"/>
+  <UMLLabProfile:Reference xmi:id="_6G5vQI-EEe2Ai-NpsAy0jg" base_Element="_6G5IMY-EEe2Ai-NpsAy0jg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_6HIYwI-EEe2Ai-NpsAy0jg" base_Element="_6HHxsI-EEe2Ai-NpsAy0jg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_6HI_0I-EEe2Ai-NpsAy0jg" base_Element="_6HIYwY-EEe2Ai-NpsAy0jg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_6HJm4I-EEe2Ai-NpsAy0jg" base_Element="_6HI_0Y-EEe2Ai-NpsAy0jg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_6HJm4o-EEe2Ai-NpsAy0jg" base_Element="_6HJm4Y-EEe2Ai-NpsAy0jg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_6HKN8Y-EEe2Ai-NpsAy0jg" base_Element="_6HKN8I-EEe2Ai-NpsAy0jg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_6HK1AI-EEe2Ai-NpsAy0jg" base_Element="_6HKN8o-EEe2Ai-NpsAy0jg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_6HLcEI-EEe2Ai-NpsAy0jg" base_Element="_6HK1AY-EEe2Ai-NpsAy0jg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_6HLcEo-EEe2Ai-NpsAy0jg" base_Element="_6HLcEY-EEe2Ai-NpsAy0jg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_6HMDIY-EEe2Ai-NpsAy0jg" base_Element="_6HMDII-EEe2Ai-NpsAy0jg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_6HMqMY-EEe2Ai-NpsAy0jg" base_Element="_6HMqMI-EEe2Ai-NpsAy0jg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_6HN4UI-EEe2Ai-NpsAy0jg" base_Element="_6HNRQI-EEe2Ai-NpsAy0jg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_6HOfYI-EEe2Ai-NpsAy0jg" base_Element="_6HN4UY-EEe2Ai-NpsAy0jg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_6HPGcI-EEe2Ai-NpsAy0jg" base_Element="_6HOfYY-EEe2Ai-NpsAy0jg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_6HPtgI-EEe2Ai-NpsAy0jg" base_Element="_6HPGcY-EEe2Ai-NpsAy0jg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_6HQUkI-EEe2Ai-NpsAy0jg" base_Element="_6HPtgY-EEe2Ai-NpsAy0jg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_6HQ7oI-EEe2Ai-NpsAy0jg" base_Element="_6HQUkY-EEe2Ai-NpsAy0jg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_6HRisI-EEe2Ai-NpsAy0jg" base_Element="_6HQ7oY-EEe2Ai-NpsAy0jg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_6HSJwI-EEe2Ai-NpsAy0jg" base_Element="_6HRisY-EEe2Ai-NpsAy0jg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_6HSJwo-EEe2Ai-NpsAy0jg" base_Element="_6HSJwY-EEe2Ai-NpsAy0jg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_6HSw0I-EEe2Ai-NpsAy0jg" base_Element="_6HSJw4-EEe2Ai-NpsAy0jg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_6HSw0o-EEe2Ai-NpsAy0jg" base_Element="_6HSw0Y-EEe2Ai-NpsAy0jg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_6HTX4Y-EEe2Ai-NpsAy0jg" base_Element="_6HTX4I-EEe2Ai-NpsAy0jg"/>
+  <UMLLabProfile:Reference xmi:id="_6HlEsI-EEe2Ai-NpsAy0jg" base_Element="_6HkdoI-EEe2Ai-NpsAy0jg"/>
+  <UMLLabProfile:Reference xmi:id="_6HlEs4-EEe2Ai-NpsAy0jg" base_Element="_6HlEsY-EEe2Ai-NpsAy0jg"/>
+  <UMLLabProfile:Reference xmi:id="_6Hlrwo-EEe2Ai-NpsAy0jg" base_Element="_6HlrwI-EEe2Ai-NpsAy0jg"/>
+  <UMLLabProfile:Reference xmi:id="_6HmS0I-EEe2Ai-NpsAy0jg" base_Element="_6Hlrw4-EEe2Ai-NpsAy0jg"/>
+  <UMLLabProfile:Reference xmi:id="_6Hm54I-EEe2Ai-NpsAy0jg" base_Element="_6HmS0Y-EEe2Ai-NpsAy0jg"/>
+  <UMLLabProfile:Reference xmi:id="_6Hng8I-EEe2Ai-NpsAy0jg" base_Element="_6Hm54Y-EEe2Ai-NpsAy0jg"/>
+  <UMLLabProfile:Reference xmi:id="_6HoIAI-EEe2Ai-NpsAy0jg" base_Element="_6Hng8Y-EEe2Ai-NpsAy0jg"/>
+  <UMLLabProfile:Reference xmi:id="_6HoIA4-EEe2Ai-NpsAy0jg" base_Element="_6HoIAY-EEe2Ai-NpsAy0jg"/>
+  <UMLLabProfile:Reference xmi:id="_6HovEo-EEe2Ai-NpsAy0jg" base_Element="_6HovEI-EEe2Ai-NpsAy0jg"/>
+  <UMLLabProfile:Reference xmi:id="_6HpWII-EEe2Ai-NpsAy0jg" base_Element="_6HovE4-EEe2Ai-NpsAy0jg"/>
+  <UMLLabProfile:Reference xmi:id="_6Hp9MI-EEe2Ai-NpsAy0jg" base_Element="_6HpWIY-EEe2Ai-NpsAy0jg"/>
+  <UMLLabProfile:Reference xmi:id="_6HqkQI-EEe2Ai-NpsAy0jg" base_Element="_6Hp9MY-EEe2Ai-NpsAy0jg"/>
+  <UMLLabProfile:Reference xmi:id="_6HqkQ4-EEe2Ai-NpsAy0jg" base_Element="_6HqkQY-EEe2Ai-NpsAy0jg"/>
+  <UMLLabProfile:Reference xmi:id="_6HrLUI-EEe2Ai-NpsAy0jg" base_Element="_6HqkRI-EEe2Ai-NpsAy0jg"/>
+  <UMLLabProfile:Reference xmi:id="_6HryYI-EEe2Ai-NpsAy0jg" base_Element="_6HrLUY-EEe2Ai-NpsAy0jg"/>
+  <UMLLabProfile:Reference xmi:id="_6HsZcI-EEe2Ai-NpsAy0jg" base_Element="_6HryYY-EEe2Ai-NpsAy0jg"/>
+  <UMLLabProfile:Reference xmi:id="_6HtAgI-EEe2Ai-NpsAy0jg" base_Element="_6HsZcY-EEe2Ai-NpsAy0jg"/>
+  <UMLLabProfile:Reference xmi:id="_6HtAg4-EEe2Ai-NpsAy0jg" base_Element="_6HtAgY-EEe2Ai-NpsAy0jg"/>
+  <UMLLabProfile:Reference xmi:id="_6Htnko-EEe2Ai-NpsAy0jg" base_Element="_6HtnkI-EEe2Ai-NpsAy0jg"/>
+  <UMLLabProfile:Reference xmi:id="_6HuOoI-EEe2Ai-NpsAy0jg" base_Element="_6Htnk4-EEe2Ai-NpsAy0jg"/>
+  <UMLLabProfile:Reference xmi:id="_6HuOo4-EEe2Ai-NpsAy0jg" base_Element="_6HuOoY-EEe2Ai-NpsAy0jg"/>
+  <UMLLabProfile:Reference xmi:id="_6Hu1so-EEe2Ai-NpsAy0jg" base_Element="_6Hu1sI-EEe2Ai-NpsAy0jg"/>
+</xmi:XMI>
