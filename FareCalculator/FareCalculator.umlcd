@@ -1,0 +1,649 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_5i1_8I-EEe2Ai-NpsAy0jg">
+  <modelElement href="FareCalculator.uml#_6Fh2QI-EEe2Ai-NpsAy0jg"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_6LVjUI-EEe2Ai-NpsAy0jg" source="_6LiXoI-EEe2Ai-NpsAy0jg">
+    <modelElement href="FareCalculator.uml#_6HkdoI-EEe2Ai-NpsAy0jg"/>
+    <stereotypes xmi:id="_6LVjUY-EEe2Ai-NpsAy0jg" name="Reference">
+      <modelElement href="FareCalculator.uml#_6HlEsI-EEe2Ai-NpsAy0jg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_6LVjUo-EEe2Ai-NpsAy0jg" text=""/>
+    <sourceRole xmi:id="_6LVjU4-EEe2Ai-NpsAy0jg" aggregationKind="NONE" name="">
+      <modelElement href="FareCalculator.uml#_6HkdoY-EEe2Ai-NpsAy0jg"/>
+      <visibility xmi:id="_6LVjVI-EEe2Ai-NpsAy0jg" label="+"/>
+      <cardinality xmi:id="_6LVjVY-EEe2Ai-NpsAy0jg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_6LVjVo-EEe2Ai-NpsAy0jg" aggregationKind="NONE" name="frame" navigable="true">
+      <modelElement href="FareCalculator.uml#_6HHxsI-EEe2Ai-NpsAy0jg"/>
+      <visibility xmi:id="_6LVjV4-EEe2Ai-NpsAy0jg" label="-"/>
+      <cardinality xmi:id="_6LVjWI-EEe2Ai-NpsAy0jg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_6LWxcI-EEe2Ai-NpsAy0jg" source="_6LiXoI-EEe2Ai-NpsAy0jg">
+    <modelElement href="FareCalculator.uml#_6HlEsY-EEe2Ai-NpsAy0jg"/>
+    <stereotypes xmi:id="_6LWxcY-EEe2Ai-NpsAy0jg" name="Reference">
+      <modelElement href="FareCalculator.uml#_6HlEs4-EEe2Ai-NpsAy0jg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_6LWxco-EEe2Ai-NpsAy0jg" text=""/>
+    <sourceRole xmi:id="_6LWxc4-EEe2Ai-NpsAy0jg" aggregationKind="NONE" name="">
+      <modelElement href="FareCalculator.uml#_6HlEso-EEe2Ai-NpsAy0jg"/>
+      <visibility xmi:id="_6LWxdI-EEe2Ai-NpsAy0jg" label="+"/>
+      <cardinality xmi:id="_6LWxdY-EEe2Ai-NpsAy0jg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_6LWxdo-EEe2Ai-NpsAy0jg" aggregationKind="NONE" name="panel" navigable="true">
+      <modelElement href="FareCalculator.uml#_6HIYwY-EEe2Ai-NpsAy0jg"/>
+      <visibility xmi:id="_6LWxd4-EEe2Ai-NpsAy0jg" label="-"/>
+      <cardinality xmi:id="_6LWxeI-EEe2Ai-NpsAy0jg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_6LXYgI-EEe2Ai-NpsAy0jg" source="_6LiXoI-EEe2Ai-NpsAy0jg">
+    <modelElement href="FareCalculator.uml#_6HlrwI-EEe2Ai-NpsAy0jg"/>
+    <stereotypes xmi:id="_6LXYgY-EEe2Ai-NpsAy0jg" name="Reference">
+      <modelElement href="FareCalculator.uml#_6Hlrwo-EEe2Ai-NpsAy0jg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_6LXYgo-EEe2Ai-NpsAy0jg" text=""/>
+    <sourceRole xmi:id="_6LXYg4-EEe2Ai-NpsAy0jg" aggregationKind="NONE" name="">
+      <modelElement href="FareCalculator.uml#_6HlrwY-EEe2Ai-NpsAy0jg"/>
+      <visibility xmi:id="_6LXYhI-EEe2Ai-NpsAy0jg" label="+"/>
+      <cardinality xmi:id="_6LXYhY-EEe2Ai-NpsAy0jg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_6LXYho-EEe2Ai-NpsAy0jg" aggregationKind="NONE" name="menuBar" navigable="true">
+      <modelElement href="FareCalculator.uml#_6HI_0Y-EEe2Ai-NpsAy0jg"/>
+      <visibility xmi:id="_6LXYh4-EEe2Ai-NpsAy0jg" label="-"/>
+      <cardinality xmi:id="_6LXYiI-EEe2Ai-NpsAy0jg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_6LX_kI-EEe2Ai-NpsAy0jg" source="_6LiXoI-EEe2Ai-NpsAy0jg">
+    <modelElement href="FareCalculator.uml#_6Hlrw4-EEe2Ai-NpsAy0jg"/>
+    <stereotypes xmi:id="_6LX_kY-EEe2Ai-NpsAy0jg" name="Reference">
+      <modelElement href="FareCalculator.uml#_6HmS0I-EEe2Ai-NpsAy0jg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_6LX_ko-EEe2Ai-NpsAy0jg" text=""/>
+    <sourceRole xmi:id="_6LX_k4-EEe2Ai-NpsAy0jg" aggregationKind="NONE" name="">
+      <modelElement href="FareCalculator.uml#_6HlrxI-EEe2Ai-NpsAy0jg"/>
+      <visibility xmi:id="_6LX_lI-EEe2Ai-NpsAy0jg" label="+"/>
+      <cardinality xmi:id="_6LX_lY-EEe2Ai-NpsAy0jg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_6LX_lo-EEe2Ai-NpsAy0jg" aggregationKind="NONE" name="menu" navigable="true">
+      <modelElement href="FareCalculator.uml#_6HJm4Y-EEe2Ai-NpsAy0jg"/>
+      <visibility xmi:id="_6LX_l4-EEe2Ai-NpsAy0jg" label="-"/>
+      <cardinality xmi:id="_6LX_mI-EEe2Ai-NpsAy0jg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_6LYmoI-EEe2Ai-NpsAy0jg" source="_6LiXoI-EEe2Ai-NpsAy0jg">
+    <modelElement href="FareCalculator.uml#_6HmS0Y-EEe2Ai-NpsAy0jg"/>
+    <stereotypes xmi:id="_6LYmoY-EEe2Ai-NpsAy0jg" name="Reference">
+      <modelElement href="FareCalculator.uml#_6Hm54I-EEe2Ai-NpsAy0jg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_6LYmoo-EEe2Ai-NpsAy0jg" text=""/>
+    <sourceRole xmi:id="_6LYmo4-EEe2Ai-NpsAy0jg" aggregationKind="NONE" name="">
+      <modelElement href="FareCalculator.uml#_6HmS0o-EEe2Ai-NpsAy0jg"/>
+      <visibility xmi:id="_6LYmpI-EEe2Ai-NpsAy0jg" label="+"/>
+      <cardinality xmi:id="_6LYmpY-EEe2Ai-NpsAy0jg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_6LYmpo-EEe2Ai-NpsAy0jg" aggregationKind="NONE" name="red" navigable="true">
+      <modelElement href="FareCalculator.uml#_6HKN8I-EEe2Ai-NpsAy0jg"/>
+      <visibility xmi:id="_6LYmp4-EEe2Ai-NpsAy0jg" label="-"/>
+      <cardinality xmi:id="_6LYmqI-EEe2Ai-NpsAy0jg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_6LZNsI-EEe2Ai-NpsAy0jg" source="_6LiXoI-EEe2Ai-NpsAy0jg">
+    <modelElement href="FareCalculator.uml#_6Hm54Y-EEe2Ai-NpsAy0jg"/>
+    <stereotypes xmi:id="_6LZNsY-EEe2Ai-NpsAy0jg" name="Reference">
+      <modelElement href="FareCalculator.uml#_6Hng8I-EEe2Ai-NpsAy0jg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_6LZNso-EEe2Ai-NpsAy0jg" text=""/>
+    <sourceRole xmi:id="_6LZNs4-EEe2Ai-NpsAy0jg" aggregationKind="NONE" name="">
+      <modelElement href="FareCalculator.uml#_6Hm54o-EEe2Ai-NpsAy0jg"/>
+      <visibility xmi:id="_6LZNtI-EEe2Ai-NpsAy0jg" label="+"/>
+      <cardinality xmi:id="_6LZNtY-EEe2Ai-NpsAy0jg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_6LZNto-EEe2Ai-NpsAy0jg" aggregationKind="NONE" name="green" navigable="true">
+      <modelElement href="FareCalculator.uml#_6HKN8o-EEe2Ai-NpsAy0jg"/>
+      <visibility xmi:id="_6LZNt4-EEe2Ai-NpsAy0jg" label="-"/>
+      <cardinality xmi:id="_6LZNuI-EEe2Ai-NpsAy0jg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_6LZNuY-EEe2Ai-NpsAy0jg" source="_6LiXoI-EEe2Ai-NpsAy0jg">
+    <modelElement href="FareCalculator.uml#_6Hng8Y-EEe2Ai-NpsAy0jg"/>
+    <stereotypes xmi:id="_6LZ0wI-EEe2Ai-NpsAy0jg" name="Reference">
+      <modelElement href="FareCalculator.uml#_6HoIAI-EEe2Ai-NpsAy0jg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_6LZ0wY-EEe2Ai-NpsAy0jg" text=""/>
+    <sourceRole xmi:id="_6LZ0wo-EEe2Ai-NpsAy0jg" aggregationKind="NONE" name="">
+      <modelElement href="FareCalculator.uml#_6Hng8o-EEe2Ai-NpsAy0jg"/>
+      <visibility xmi:id="_6LZ0w4-EEe2Ai-NpsAy0jg" label="+"/>
+      <cardinality xmi:id="_6LZ0xI-EEe2Ai-NpsAy0jg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_6LZ0xY-EEe2Ai-NpsAy0jg" aggregationKind="NONE" name="yellow" navigable="true">
+      <modelElement href="FareCalculator.uml#_6HK1AY-EEe2Ai-NpsAy0jg"/>
+      <visibility xmi:id="_6LZ0xo-EEe2Ai-NpsAy0jg" label="-"/>
+      <cardinality xmi:id="_6LZ0x4-EEe2Ai-NpsAy0jg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_6Lab0I-EEe2Ai-NpsAy0jg" source="_6LiXoI-EEe2Ai-NpsAy0jg">
+    <modelElement href="FareCalculator.uml#_6HoIAY-EEe2Ai-NpsAy0jg"/>
+    <stereotypes xmi:id="_6Lab0Y-EEe2Ai-NpsAy0jg" name="Reference">
+      <modelElement href="FareCalculator.uml#_6HoIA4-EEe2Ai-NpsAy0jg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_6Lab0o-EEe2Ai-NpsAy0jg" text=""/>
+    <sourceRole xmi:id="_6Lab04-EEe2Ai-NpsAy0jg" aggregationKind="NONE" name="">
+      <modelElement href="FareCalculator.uml#_6HoIAo-EEe2Ai-NpsAy0jg"/>
+      <visibility xmi:id="_6Lab1I-EEe2Ai-NpsAy0jg" label="+"/>
+      <cardinality xmi:id="_6Lab1Y-EEe2Ai-NpsAy0jg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_6Lab1o-EEe2Ai-NpsAy0jg" aggregationKind="NONE" name="departLabel" navigable="true">
+      <modelElement href="FareCalculator.uml#_6HLcEY-EEe2Ai-NpsAy0jg"/>
+      <visibility xmi:id="_6Lab14-EEe2Ai-NpsAy0jg" label="-"/>
+      <cardinality xmi:id="_6Lab2I-EEe2Ai-NpsAy0jg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_6LbC4I-EEe2Ai-NpsAy0jg" source="_6LiXoI-EEe2Ai-NpsAy0jg">
+    <modelElement href="FareCalculator.uml#_6HovEI-EEe2Ai-NpsAy0jg"/>
+    <stereotypes xmi:id="_6LbC4Y-EEe2Ai-NpsAy0jg" name="Reference">
+      <modelElement href="FareCalculator.uml#_6HovEo-EEe2Ai-NpsAy0jg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_6LbC4o-EEe2Ai-NpsAy0jg" text=""/>
+    <sourceRole xmi:id="_6LbC44-EEe2Ai-NpsAy0jg" aggregationKind="NONE" name="">
+      <modelElement href="FareCalculator.uml#_6HovEY-EEe2Ai-NpsAy0jg"/>
+      <visibility xmi:id="_6LbC5I-EEe2Ai-NpsAy0jg" label="+"/>
+      <cardinality xmi:id="_6LbC5Y-EEe2Ai-NpsAy0jg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_6LbC5o-EEe2Ai-NpsAy0jg" aggregationKind="NONE" name="StateLabel" navigable="true">
+      <modelElement href="FareCalculator.uml#_6HMDII-EEe2Ai-NpsAy0jg"/>
+      <visibility xmi:id="_6LbC54-EEe2Ai-NpsAy0jg" label="-"/>
+      <cardinality xmi:id="_6LbC6I-EEe2Ai-NpsAy0jg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_6LbC6Y-EEe2Ai-NpsAy0jg" source="_6LiXoI-EEe2Ai-NpsAy0jg">
+    <modelElement href="FareCalculator.uml#_6HovE4-EEe2Ai-NpsAy0jg"/>
+    <stereotypes xmi:id="_6LbC6o-EEe2Ai-NpsAy0jg" name="Reference">
+      <modelElement href="FareCalculator.uml#_6HpWII-EEe2Ai-NpsAy0jg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_6LbC64-EEe2Ai-NpsAy0jg" text=""/>
+    <sourceRole xmi:id="_6LbC7I-EEe2Ai-NpsAy0jg" aggregationKind="NONE" name="">
+      <modelElement href="FareCalculator.uml#_6HovFI-EEe2Ai-NpsAy0jg"/>
+      <visibility xmi:id="_6LbC7Y-EEe2Ai-NpsAy0jg" label="+"/>
+      <cardinality xmi:id="_6LbC7o-EEe2Ai-NpsAy0jg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_6LbC74-EEe2Ai-NpsAy0jg" aggregationKind="NONE" name="departCombo" navigable="true">
+      <modelElement href="FareCalculator.uml#_6HMqMI-EEe2Ai-NpsAy0jg"/>
+      <visibility xmi:id="_6LbC8I-EEe2Ai-NpsAy0jg" label="-"/>
+      <cardinality xmi:id="_6LbC8Y-EEe2Ai-NpsAy0jg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_6Lbp8I-EEe2Ai-NpsAy0jg" source="_6LiXoI-EEe2Ai-NpsAy0jg">
+    <modelElement href="FareCalculator.uml#_6HpWIY-EEe2Ai-NpsAy0jg"/>
+    <stereotypes xmi:id="_6Lbp8Y-EEe2Ai-NpsAy0jg" name="Reference">
+      <modelElement href="FareCalculator.uml#_6Hp9MI-EEe2Ai-NpsAy0jg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_6Lbp8o-EEe2Ai-NpsAy0jg" text=""/>
+    <sourceRole xmi:id="_6Lbp84-EEe2Ai-NpsAy0jg" aggregationKind="NONE" name="">
+      <modelElement href="FareCalculator.uml#_6HpWIo-EEe2Ai-NpsAy0jg"/>
+      <visibility xmi:id="_6Lbp9I-EEe2Ai-NpsAy0jg" label="+"/>
+      <cardinality xmi:id="_6Lbp9Y-EEe2Ai-NpsAy0jg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_6Lbp9o-EEe2Ai-NpsAy0jg" aggregationKind="NONE" name="StateCombo" navigable="true">
+      <modelElement href="FareCalculator.uml#_6HNRQI-EEe2Ai-NpsAy0jg"/>
+      <visibility xmi:id="_6Lbp94-EEe2Ai-NpsAy0jg" label="-"/>
+      <cardinality xmi:id="_6Lbp-I-EEe2Ai-NpsAy0jg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_6LcRAI-EEe2Ai-NpsAy0jg" source="_6LiXoI-EEe2Ai-NpsAy0jg">
+    <modelElement href="FareCalculator.uml#_6Hp9MY-EEe2Ai-NpsAy0jg"/>
+    <stereotypes xmi:id="_6LcRAY-EEe2Ai-NpsAy0jg" name="Reference">
+      <modelElement href="FareCalculator.uml#_6HqkQI-EEe2Ai-NpsAy0jg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_6LcRAo-EEe2Ai-NpsAy0jg" text=""/>
+    <sourceRole xmi:id="_6LcRA4-EEe2Ai-NpsAy0jg" aggregationKind="NONE" name="">
+      <modelElement href="FareCalculator.uml#_6Hp9Mo-EEe2Ai-NpsAy0jg"/>
+      <visibility xmi:id="_6LcRBI-EEe2Ai-NpsAy0jg" label="+"/>
+      <cardinality xmi:id="_6LcRBY-EEe2Ai-NpsAy0jg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_6LcRBo-EEe2Ai-NpsAy0jg" aggregationKind="NONE" name="Class" navigable="true">
+      <modelElement href="FareCalculator.uml#_6HN4UY-EEe2Ai-NpsAy0jg"/>
+      <visibility xmi:id="_6LcRB4-EEe2Ai-NpsAy0jg" label="-"/>
+      <cardinality xmi:id="_6LcRCI-EEe2Ai-NpsAy0jg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_6Lc4EI-EEe2Ai-NpsAy0jg" source="_6LiXoI-EEe2Ai-NpsAy0jg">
+    <modelElement href="FareCalculator.uml#_6HqkQY-EEe2Ai-NpsAy0jg"/>
+    <stereotypes xmi:id="_6Lc4EY-EEe2Ai-NpsAy0jg" name="Reference">
+      <modelElement href="FareCalculator.uml#_6HqkQ4-EEe2Ai-NpsAy0jg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_6Lc4Eo-EEe2Ai-NpsAy0jg" text=""/>
+    <sourceRole xmi:id="_6Lc4E4-EEe2Ai-NpsAy0jg" aggregationKind="NONE" name="">
+      <modelElement href="FareCalculator.uml#_6HqkQo-EEe2Ai-NpsAy0jg"/>
+      <visibility xmi:id="_6Lc4FI-EEe2Ai-NpsAy0jg" label="+"/>
+      <cardinality xmi:id="_6Lc4FY-EEe2Ai-NpsAy0jg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_6Lc4Fo-EEe2Ai-NpsAy0jg" aggregationKind="NONE" name="economy" navigable="true">
+      <modelElement href="FareCalculator.uml#_6HOfYY-EEe2Ai-NpsAy0jg"/>
+      <visibility xmi:id="_6Lc4F4-EEe2Ai-NpsAy0jg" label="-"/>
+      <cardinality xmi:id="_6Lc4GI-EEe2Ai-NpsAy0jg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_6LdfII-EEe2Ai-NpsAy0jg" source="_6LiXoI-EEe2Ai-NpsAy0jg">
+    <modelElement href="FareCalculator.uml#_6HqkRI-EEe2Ai-NpsAy0jg"/>
+    <stereotypes xmi:id="_6LdfIY-EEe2Ai-NpsAy0jg" name="Reference">
+      <modelElement href="FareCalculator.uml#_6HrLUI-EEe2Ai-NpsAy0jg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_6LdfIo-EEe2Ai-NpsAy0jg" text=""/>
+    <sourceRole xmi:id="_6LdfI4-EEe2Ai-NpsAy0jg" aggregationKind="NONE" name="">
+      <modelElement href="FareCalculator.uml#_6HqkRY-EEe2Ai-NpsAy0jg"/>
+      <visibility xmi:id="_6LdfJI-EEe2Ai-NpsAy0jg" label="+"/>
+      <cardinality xmi:id="_6LdfJY-EEe2Ai-NpsAy0jg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_6LdfJo-EEe2Ai-NpsAy0jg" aggregationKind="NONE" name="AC" navigable="true">
+      <modelElement href="FareCalculator.uml#_6HPGcY-EEe2Ai-NpsAy0jg"/>
+      <visibility xmi:id="_6LdfJ4-EEe2Ai-NpsAy0jg" label="-"/>
+      <cardinality xmi:id="_6LdfKI-EEe2Ai-NpsAy0jg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_6LeGMI-EEe2Ai-NpsAy0jg" source="_6LiXoI-EEe2Ai-NpsAy0jg">
+    <modelElement href="FareCalculator.uml#_6HrLUY-EEe2Ai-NpsAy0jg"/>
+    <stereotypes xmi:id="_6LeGMY-EEe2Ai-NpsAy0jg" name="Reference">
+      <modelElement href="FareCalculator.uml#_6HryYI-EEe2Ai-NpsAy0jg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_6LeGMo-EEe2Ai-NpsAy0jg" text=""/>
+    <sourceRole xmi:id="_6LeGM4-EEe2Ai-NpsAy0jg" aggregationKind="NONE" name="">
+      <modelElement href="FareCalculator.uml#_6HrLUo-EEe2Ai-NpsAy0jg"/>
+      <visibility xmi:id="_6LeGNI-EEe2Ai-NpsAy0jg" label="+"/>
+      <cardinality xmi:id="_6LeGNY-EEe2Ai-NpsAy0jg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_6LeGNo-EEe2Ai-NpsAy0jg" aggregationKind="NONE" name="bGroup" navigable="true">
+      <modelElement href="FareCalculator.uml#_6HPtgY-EEe2Ai-NpsAy0jg"/>
+      <visibility xmi:id="_6LeGN4-EEe2Ai-NpsAy0jg" label="-"/>
+      <cardinality xmi:id="_6LeGOI-EEe2Ai-NpsAy0jg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_6LetQI-EEe2Ai-NpsAy0jg" source="_6LiXoI-EEe2Ai-NpsAy0jg">
+    <modelElement href="FareCalculator.uml#_6HryYY-EEe2Ai-NpsAy0jg"/>
+    <stereotypes xmi:id="_6LetQY-EEe2Ai-NpsAy0jg" name="Reference">
+      <modelElement href="FareCalculator.uml#_6HsZcI-EEe2Ai-NpsAy0jg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_6LetQo-EEe2Ai-NpsAy0jg" text=""/>
+    <sourceRole xmi:id="_6LetQ4-EEe2Ai-NpsAy0jg" aggregationKind="NONE" name="">
+      <modelElement href="FareCalculator.uml#_6HryYo-EEe2Ai-NpsAy0jg"/>
+      <visibility xmi:id="_6LetRI-EEe2Ai-NpsAy0jg" label="+"/>
+      <cardinality xmi:id="_6LetRY-EEe2Ai-NpsAy0jg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_6LetRo-EEe2Ai-NpsAy0jg" aggregationKind="NONE" name="arrLabel" navigable="true">
+      <modelElement href="FareCalculator.uml#_6HQUkY-EEe2Ai-NpsAy0jg"/>
+      <visibility xmi:id="_6LetR4-EEe2Ai-NpsAy0jg" label="-"/>
+      <cardinality xmi:id="_6LetSI-EEe2Ai-NpsAy0jg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_6LfUUI-EEe2Ai-NpsAy0jg" source="_6LiXoI-EEe2Ai-NpsAy0jg">
+    <modelElement href="FareCalculator.uml#_6HsZcY-EEe2Ai-NpsAy0jg"/>
+    <stereotypes xmi:id="_6LfUUY-EEe2Ai-NpsAy0jg" name="Reference">
+      <modelElement href="FareCalculator.uml#_6HtAgI-EEe2Ai-NpsAy0jg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_6LfUUo-EEe2Ai-NpsAy0jg" text=""/>
+    <sourceRole xmi:id="_6LfUU4-EEe2Ai-NpsAy0jg" aggregationKind="NONE" name="">
+      <modelElement href="FareCalculator.uml#_6HsZco-EEe2Ai-NpsAy0jg"/>
+      <visibility xmi:id="_6LfUVI-EEe2Ai-NpsAy0jg" label="+"/>
+      <cardinality xmi:id="_6LfUVY-EEe2Ai-NpsAy0jg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_6LfUVo-EEe2Ai-NpsAy0jg" aggregationKind="NONE" name="arrCombo" navigable="true">
+      <modelElement href="FareCalculator.uml#_6HQ7oY-EEe2Ai-NpsAy0jg"/>
+      <visibility xmi:id="_6LfUV4-EEe2Ai-NpsAy0jg" label="-"/>
+      <cardinality xmi:id="_6LfUWI-EEe2Ai-NpsAy0jg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_6LfUWY-EEe2Ai-NpsAy0jg" source="_6LiXoI-EEe2Ai-NpsAy0jg">
+    <modelElement href="FareCalculator.uml#_6HtAgY-EEe2Ai-NpsAy0jg"/>
+    <stereotypes xmi:id="_6LfUWo-EEe2Ai-NpsAy0jg" name="Reference">
+      <modelElement href="FareCalculator.uml#_6HtAg4-EEe2Ai-NpsAy0jg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_6LfUW4-EEe2Ai-NpsAy0jg" text=""/>
+    <sourceRole xmi:id="_6LfUXI-EEe2Ai-NpsAy0jg" aggregationKind="NONE" name="">
+      <modelElement href="FareCalculator.uml#_6HtAgo-EEe2Ai-NpsAy0jg"/>
+      <visibility xmi:id="_6LfUXY-EEe2Ai-NpsAy0jg" label="+"/>
+      <cardinality xmi:id="_6LfUXo-EEe2Ai-NpsAy0jg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_6LfUX4-EEe2Ai-NpsAy0jg" aggregationKind="NONE" name="seatLabel" navigable="true">
+      <modelElement href="FareCalculator.uml#_6HRisY-EEe2Ai-NpsAy0jg"/>
+      <visibility xmi:id="_6LfUYI-EEe2Ai-NpsAy0jg" label="-"/>
+      <cardinality xmi:id="_6LfUYY-EEe2Ai-NpsAy0jg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_6Lf7YI-EEe2Ai-NpsAy0jg" source="_6LiXoI-EEe2Ai-NpsAy0jg">
+    <modelElement href="FareCalculator.uml#_6HtnkI-EEe2Ai-NpsAy0jg"/>
+    <stereotypes xmi:id="_6Lf7YY-EEe2Ai-NpsAy0jg" name="Reference">
+      <modelElement href="FareCalculator.uml#_6Htnko-EEe2Ai-NpsAy0jg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_6Lf7Yo-EEe2Ai-NpsAy0jg" text=""/>
+    <sourceRole xmi:id="_6Lf7Y4-EEe2Ai-NpsAy0jg" aggregationKind="NONE" name="">
+      <modelElement href="FareCalculator.uml#_6HtnkY-EEe2Ai-NpsAy0jg"/>
+      <visibility xmi:id="_6Lf7ZI-EEe2Ai-NpsAy0jg" label="+"/>
+      <cardinality xmi:id="_6Lf7ZY-EEe2Ai-NpsAy0jg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_6Lf7Zo-EEe2Ai-NpsAy0jg" aggregationKind="NONE" name="seatText" navigable="true">
+      <modelElement href="FareCalculator.uml#_6HSJwY-EEe2Ai-NpsAy0jg"/>
+      <visibility xmi:id="_6Lf7Z4-EEe2Ai-NpsAy0jg" label="-"/>
+      <cardinality xmi:id="_6Lf7aI-EEe2Ai-NpsAy0jg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_6LgicI-EEe2Ai-NpsAy0jg" source="_6LiXoI-EEe2Ai-NpsAy0jg">
+    <modelElement href="FareCalculator.uml#_6Htnk4-EEe2Ai-NpsAy0jg"/>
+    <stereotypes xmi:id="_6LgicY-EEe2Ai-NpsAy0jg" name="Reference">
+      <modelElement href="FareCalculator.uml#_6HuOoI-EEe2Ai-NpsAy0jg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_6Lgico-EEe2Ai-NpsAy0jg" text=""/>
+    <sourceRole xmi:id="_6Lgic4-EEe2Ai-NpsAy0jg" aggregationKind="NONE" name="">
+      <modelElement href="FareCalculator.uml#_6HtnlI-EEe2Ai-NpsAy0jg"/>
+      <visibility xmi:id="_6LgidI-EEe2Ai-NpsAy0jg" label="+"/>
+      <cardinality xmi:id="_6LgidY-EEe2Ai-NpsAy0jg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_6Lgido-EEe2Ai-NpsAy0jg" aggregationKind="NONE" name="computeFare" navigable="true">
+      <modelElement href="FareCalculator.uml#_6HSJw4-EEe2Ai-NpsAy0jg"/>
+      <visibility xmi:id="_6Lgid4-EEe2Ai-NpsAy0jg" label="-"/>
+      <cardinality xmi:id="_6LgieI-EEe2Ai-NpsAy0jg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_6LhJgI-EEe2Ai-NpsAy0jg" source="_6LiXoI-EEe2Ai-NpsAy0jg">
+    <modelElement href="FareCalculator.uml#_6HuOoY-EEe2Ai-NpsAy0jg"/>
+    <stereotypes xmi:id="_6LhJgY-EEe2Ai-NpsAy0jg" name="Reference">
+      <modelElement href="FareCalculator.uml#_6HuOo4-EEe2Ai-NpsAy0jg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_6LhJgo-EEe2Ai-NpsAy0jg" text=""/>
+    <sourceRole xmi:id="_6LhJg4-EEe2Ai-NpsAy0jg" aggregationKind="NONE" name="">
+      <modelElement href="FareCalculator.uml#_6HuOoo-EEe2Ai-NpsAy0jg"/>
+      <visibility xmi:id="_6LhJhI-EEe2Ai-NpsAy0jg" label="+"/>
+      <cardinality xmi:id="_6LhJhY-EEe2Ai-NpsAy0jg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_6LhJho-EEe2Ai-NpsAy0jg" aggregationKind="NONE" name="totalFare" navigable="true">
+      <modelElement href="FareCalculator.uml#_6HSw0Y-EEe2Ai-NpsAy0jg"/>
+      <visibility xmi:id="_6LhJh4-EEe2Ai-NpsAy0jg" label="-"/>
+      <cardinality xmi:id="_6LhJiI-EEe2Ai-NpsAy0jg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_6LhwkI-EEe2Ai-NpsAy0jg" source="_6LiXoI-EEe2Ai-NpsAy0jg">
+    <modelElement href="FareCalculator.uml#_6Hu1sI-EEe2Ai-NpsAy0jg"/>
+    <stereotypes xmi:id="_6LhwkY-EEe2Ai-NpsAy0jg" name="Reference">
+      <modelElement href="FareCalculator.uml#_6Hu1so-EEe2Ai-NpsAy0jg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_6Lhwko-EEe2Ai-NpsAy0jg" text=""/>
+    <sourceRole xmi:id="_6Lhwk4-EEe2Ai-NpsAy0jg" aggregationKind="NONE" name="">
+      <modelElement href="FareCalculator.uml#_6Hu1sY-EEe2Ai-NpsAy0jg"/>
+      <visibility xmi:id="_6LhwlI-EEe2Ai-NpsAy0jg" label="+"/>
+      <cardinality xmi:id="_6LhwlY-EEe2Ai-NpsAy0jg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_6Lhwlo-EEe2Ai-NpsAy0jg" aggregationKind="NONE" name="totalFareText" navigable="true">
+      <modelElement href="FareCalculator.uml#_6HTX4I-EEe2Ai-NpsAy0jg"/>
+      <visibility xmi:id="_6Lhwl4-EEe2Ai-NpsAy0jg" label="-"/>
+      <cardinality xmi:id="_6LhwmI-EEe2Ai-NpsAy0jg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_6LiXoI-EEe2Ai-NpsAy0jg" name="FareCalculator" associationsOut="_6LVjUI-EEe2Ai-NpsAy0jg _6LWxcI-EEe2Ai-NpsAy0jg _6LXYgI-EEe2Ai-NpsAy0jg _6LX_kI-EEe2Ai-NpsAy0jg _6LYmoI-EEe2Ai-NpsAy0jg _6LZNsI-EEe2Ai-NpsAy0jg _6LZNuY-EEe2Ai-NpsAy0jg _6Lab0I-EEe2Ai-NpsAy0jg _6LbC4I-EEe2Ai-NpsAy0jg _6LbC6Y-EEe2Ai-NpsAy0jg _6Lbp8I-EEe2Ai-NpsAy0jg _6LcRAI-EEe2Ai-NpsAy0jg _6Lc4EI-EEe2Ai-NpsAy0jg _6LdfII-EEe2Ai-NpsAy0jg _6LeGMI-EEe2Ai-NpsAy0jg _6LetQI-EEe2Ai-NpsAy0jg _6LfUUI-EEe2Ai-NpsAy0jg _6LfUWY-EEe2Ai-NpsAy0jg _6Lf7YI-EEe2Ai-NpsAy0jg _6LgicI-EEe2Ai-NpsAy0jg _6LhJgI-EEe2Ai-NpsAy0jg _6LhwkI-EEe2Ai-NpsAy0jg">
+    <modelElement href="FareCalculator.uml#_6FsOUI-EEe2Ai-NpsAy0jg"/>
+    <visualProperties xmi:id="_6LiXoY-EEe2Ai-NpsAy0jg" position="376.0,-214.0"/>
+    <visibility xmi:id="_6LiXoo-EEe2Ai-NpsAy0jg" label="+"/>
+    <attributes xmi:id="_6LiXo4-EEe2Ai-NpsAy0jg" name="frame">
+      <modelElement href="FareCalculator.uml#_6HHxsI-EEe2Ai-NpsAy0jg"/>
+      <stereotypes xmi:id="_6LiXpI-EEe2Ai-NpsAy0jg" name="LegacyStyledElement">
+        <modelElement href="FareCalculator.uml#_6HIYwI-EEe2Ai-NpsAy0jg"/>
+      </stereotypes>
+      <visibility xmi:id="_6LiXpY-EEe2Ai-NpsAy0jg" label="-"/>
+      <cardinality xmi:id="_6LiXpo-EEe2Ai-NpsAy0jg" label="1" max="1" min="1"/>
+      <type xmi:id="_6LiXp4-EEe2Ai-NpsAy0jg" name="JFrame">
+        <modelElement href="FareCalculator.uml#_6GzooY-EEe2Ai-NpsAy0jg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_6LiXqI-EEe2Ai-NpsAy0jg" name="panel">
+      <modelElement href="FareCalculator.uml#_6HIYwY-EEe2Ai-NpsAy0jg"/>
+      <stereotypes xmi:id="_6LiXqY-EEe2Ai-NpsAy0jg" name="LegacyStyledElement">
+        <modelElement href="FareCalculator.uml#_6HI_0I-EEe2Ai-NpsAy0jg"/>
+      </stereotypes>
+      <visibility xmi:id="_6LiXqo-EEe2Ai-NpsAy0jg" label="-"/>
+      <cardinality xmi:id="_6LiXq4-EEe2Ai-NpsAy0jg" label="1" max="1" min="1"/>
+      <type xmi:id="_6LiXrI-EEe2Ai-NpsAy0jg" name="JPanel">
+        <modelElement href="FareCalculator.uml#_6G36EY-EEe2Ai-NpsAy0jg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_6LiXrY-EEe2Ai-NpsAy0jg" name="menuBar">
+      <modelElement href="FareCalculator.uml#_6HI_0Y-EEe2Ai-NpsAy0jg"/>
+      <stereotypes xmi:id="_6LiXro-EEe2Ai-NpsAy0jg" name="LegacyStyledElement">
+        <modelElement href="FareCalculator.uml#_6HJm4I-EEe2Ai-NpsAy0jg"/>
+      </stereotypes>
+      <visibility xmi:id="_6LiXr4-EEe2Ai-NpsAy0jg" label="-"/>
+      <cardinality xmi:id="_6LiXsI-EEe2Ai-NpsAy0jg" label="1" max="1" min="1"/>
+      <type xmi:id="_6LiXsY-EEe2Ai-NpsAy0jg" name="JMenuBar">
+        <modelElement href="FareCalculator.uml#_6G2r8Y-EEe2Ai-NpsAy0jg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_6LiXso-EEe2Ai-NpsAy0jg" name="menu">
+      <modelElement href="FareCalculator.uml#_6HJm4Y-EEe2Ai-NpsAy0jg"/>
+      <stereotypes xmi:id="_6LiXs4-EEe2Ai-NpsAy0jg" name="LegacyStyledElement">
+        <modelElement href="FareCalculator.uml#_6HJm4o-EEe2Ai-NpsAy0jg"/>
+      </stereotypes>
+      <visibility xmi:id="_6LiXtI-EEe2Ai-NpsAy0jg" label="-"/>
+      <cardinality xmi:id="_6LiXtY-EEe2Ai-NpsAy0jg" label="1" max="1" min="1"/>
+      <type xmi:id="_6LiXto-EEe2Ai-NpsAy0jg" name="JMenu">
+        <modelElement href="FareCalculator.uml#_6G2E4I-EEe2Ai-NpsAy0jg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_6LiXt4-EEe2Ai-NpsAy0jg" name="red">
+      <modelElement href="FareCalculator.uml#_6HKN8I-EEe2Ai-NpsAy0jg"/>
+      <stereotypes xmi:id="_6LiXuI-EEe2Ai-NpsAy0jg" name="LegacyStyledElement">
+        <modelElement href="FareCalculator.uml#_6HKN8Y-EEe2Ai-NpsAy0jg"/>
+      </stereotypes>
+      <visibility xmi:id="_6LiXuY-EEe2Ai-NpsAy0jg" label="-"/>
+      <cardinality xmi:id="_6LiXuo-EEe2Ai-NpsAy0jg" label="1" max="1" min="1"/>
+      <type xmi:id="_6LiXu4-EEe2Ai-NpsAy0jg" name="JMenuItem">
+        <modelElement href="FareCalculator.uml#_6G3TAY-EEe2Ai-NpsAy0jg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_6LiXvI-EEe2Ai-NpsAy0jg" name="green">
+      <modelElement href="FareCalculator.uml#_6HKN8o-EEe2Ai-NpsAy0jg"/>
+      <stereotypes xmi:id="_6LiXvY-EEe2Ai-NpsAy0jg" name="LegacyStyledElement">
+        <modelElement href="FareCalculator.uml#_6HK1AI-EEe2Ai-NpsAy0jg"/>
+      </stereotypes>
+      <visibility xmi:id="_6LiXvo-EEe2Ai-NpsAy0jg" label="-"/>
+      <cardinality xmi:id="_6LiXv4-EEe2Ai-NpsAy0jg" label="1" max="1" min="1"/>
+      <type xmi:id="_6LiXwI-EEe2Ai-NpsAy0jg" name="JMenuItem">
+        <modelElement href="FareCalculator.uml#_6G3TAY-EEe2Ai-NpsAy0jg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_6LiXwY-EEe2Ai-NpsAy0jg" name="yellow">
+      <modelElement href="FareCalculator.uml#_6HK1AY-EEe2Ai-NpsAy0jg"/>
+      <stereotypes xmi:id="_6LiXwo-EEe2Ai-NpsAy0jg" name="LegacyStyledElement">
+        <modelElement href="FareCalculator.uml#_6HLcEI-EEe2Ai-NpsAy0jg"/>
+      </stereotypes>
+      <visibility xmi:id="_6LiXw4-EEe2Ai-NpsAy0jg" label="-"/>
+      <cardinality xmi:id="_6LiXxI-EEe2Ai-NpsAy0jg" label="1" max="1" min="1"/>
+      <type xmi:id="_6LiXxY-EEe2Ai-NpsAy0jg" name="JMenuItem">
+        <modelElement href="FareCalculator.uml#_6G3TAY-EEe2Ai-NpsAy0jg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_6LiXxo-EEe2Ai-NpsAy0jg" name="departLabel">
+      <modelElement href="FareCalculator.uml#_6HLcEY-EEe2Ai-NpsAy0jg"/>
+      <stereotypes xmi:id="_6LiXx4-EEe2Ai-NpsAy0jg" name="LegacyStyledElement">
+        <modelElement href="FareCalculator.uml#_6HLcEo-EEe2Ai-NpsAy0jg"/>
+      </stereotypes>
+      <visibility xmi:id="_6LiXyI-EEe2Ai-NpsAy0jg" label="-"/>
+      <cardinality xmi:id="_6LiXyY-EEe2Ai-NpsAy0jg" label="1" max="1" min="1"/>
+      <type xmi:id="_6LiXyo-EEe2Ai-NpsAy0jg" name="JLabel">
+        <modelElement href="FareCalculator.uml#_6G02wY-EEe2Ai-NpsAy0jg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_6LiXy4-EEe2Ai-NpsAy0jg" name="StateLabel">
+      <modelElement href="FareCalculator.uml#_6HMDII-EEe2Ai-NpsAy0jg"/>
+      <stereotypes xmi:id="_6LiXzI-EEe2Ai-NpsAy0jg" name="LegacyStyledElement">
+        <modelElement href="FareCalculator.uml#_6HMDIY-EEe2Ai-NpsAy0jg"/>
+      </stereotypes>
+      <visibility xmi:id="_6LiXzY-EEe2Ai-NpsAy0jg" label="-"/>
+      <cardinality xmi:id="_6LiXzo-EEe2Ai-NpsAy0jg" label="1" max="1" min="1"/>
+      <type xmi:id="_6LiXz4-EEe2Ai-NpsAy0jg" name="JLabel">
+        <modelElement href="FareCalculator.uml#_6G02wY-EEe2Ai-NpsAy0jg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_6LiX0I-EEe2Ai-NpsAy0jg" name="departCombo">
+      <modelElement href="FareCalculator.uml#_6HMqMI-EEe2Ai-NpsAy0jg"/>
+      <stereotypes xmi:id="_6LiX0Y-EEe2Ai-NpsAy0jg" name="LegacyStyledElement">
+        <modelElement href="FareCalculator.uml#_6HMqMY-EEe2Ai-NpsAy0jg"/>
+      </stereotypes>
+      <visibility xmi:id="_6LiX0o-EEe2Ai-NpsAy0jg" label="-"/>
+      <cardinality xmi:id="_6LiX04-EEe2Ai-NpsAy0jg" label="1" max="1" min="1"/>
+      <type xmi:id="_6LiX1I-EEe2Ai-NpsAy0jg" name="JComboBox">
+        <modelElement href="FareCalculator.uml#_6GzBkI-EEe2Ai-NpsAy0jg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_6LiX1Y-EEe2Ai-NpsAy0jg" name="StateCombo">
+      <modelElement href="FareCalculator.uml#_6HNRQI-EEe2Ai-NpsAy0jg"/>
+      <stereotypes xmi:id="_6LiX1o-EEe2Ai-NpsAy0jg" name="LegacyStyledElement">
+        <modelElement href="FareCalculator.uml#_6HN4UI-EEe2Ai-NpsAy0jg"/>
+      </stereotypes>
+      <visibility xmi:id="_6LiX14-EEe2Ai-NpsAy0jg" label="-"/>
+      <cardinality xmi:id="_6LiX2I-EEe2Ai-NpsAy0jg" label="1" max="1" min="1"/>
+      <type xmi:id="_6LiX2Y-EEe2Ai-NpsAy0jg" name="JComboBox">
+        <modelElement href="FareCalculator.uml#_6GzBkI-EEe2Ai-NpsAy0jg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_6LiX2o-EEe2Ai-NpsAy0jg" name="Class">
+      <modelElement href="FareCalculator.uml#_6HN4UY-EEe2Ai-NpsAy0jg"/>
+      <stereotypes xmi:id="_6LiX24-EEe2Ai-NpsAy0jg" name="LegacyStyledElement">
+        <modelElement href="FareCalculator.uml#_6HOfYI-EEe2Ai-NpsAy0jg"/>
+      </stereotypes>
+      <visibility xmi:id="_6LiX3I-EEe2Ai-NpsAy0jg" label="-"/>
+      <cardinality xmi:id="_6LiX3Y-EEe2Ai-NpsAy0jg" label="1" max="1" min="1"/>
+      <type xmi:id="_6LiX3o-EEe2Ai-NpsAy0jg" name="JLabel">
+        <modelElement href="FareCalculator.uml#_6G02wY-EEe2Ai-NpsAy0jg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_6LiX34-EEe2Ai-NpsAy0jg" name="economy">
+      <modelElement href="FareCalculator.uml#_6HOfYY-EEe2Ai-NpsAy0jg"/>
+      <stereotypes xmi:id="_6LiX4I-EEe2Ai-NpsAy0jg" name="LegacyStyledElement">
+        <modelElement href="FareCalculator.uml#_6HPGcI-EEe2Ai-NpsAy0jg"/>
+      </stereotypes>
+      <visibility xmi:id="_6LiX4Y-EEe2Ai-NpsAy0jg" label="-"/>
+      <cardinality xmi:id="_6LiX4o-EEe2Ai-NpsAy0jg" label="1" max="1" min="1"/>
+      <type xmi:id="_6LiX44-EEe2Ai-NpsAy0jg" name="JCheckBox">
+        <modelElement href="FareCalculator.uml#_6GxzcY-EEe2Ai-NpsAy0jg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_6LiX5I-EEe2Ai-NpsAy0jg" name="AC">
+      <modelElement href="FareCalculator.uml#_6HPGcY-EEe2Ai-NpsAy0jg"/>
+      <stereotypes xmi:id="_6LiX5Y-EEe2Ai-NpsAy0jg" name="LegacyStyledElement">
+        <modelElement href="FareCalculator.uml#_6HPtgI-EEe2Ai-NpsAy0jg"/>
+      </stereotypes>
+      <visibility xmi:id="_6LiX5o-EEe2Ai-NpsAy0jg" label="-"/>
+      <cardinality xmi:id="_6LiX54-EEe2Ai-NpsAy0jg" label="1" max="1" min="1"/>
+      <type xmi:id="_6LiX6I-EEe2Ai-NpsAy0jg" name="JCheckBox">
+        <modelElement href="FareCalculator.uml#_6GxzcY-EEe2Ai-NpsAy0jg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_6LiX6Y-EEe2Ai-NpsAy0jg" name="bGroup">
+      <modelElement href="FareCalculator.uml#_6HPtgY-EEe2Ai-NpsAy0jg"/>
+      <stereotypes xmi:id="_6LiX6o-EEe2Ai-NpsAy0jg" name="LegacyStyledElement">
+        <modelElement href="FareCalculator.uml#_6HQUkI-EEe2Ai-NpsAy0jg"/>
+      </stereotypes>
+      <visibility xmi:id="_6LiX64-EEe2Ai-NpsAy0jg" label="-"/>
+      <cardinality xmi:id="_6LiX7I-EEe2Ai-NpsAy0jg" label="1" max="1" min="1"/>
+      <type xmi:id="_6LiX7Y-EEe2Ai-NpsAy0jg" name="ButtonGroup">
+        <modelElement href="FareCalculator.uml#_6Gv-QY-EEe2Ai-NpsAy0jg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_6LiX7o-EEe2Ai-NpsAy0jg" name="arrLabel">
+      <modelElement href="FareCalculator.uml#_6HQUkY-EEe2Ai-NpsAy0jg"/>
+      <stereotypes xmi:id="_6LiX74-EEe2Ai-NpsAy0jg" name="LegacyStyledElement">
+        <modelElement href="FareCalculator.uml#_6HQ7oI-EEe2Ai-NpsAy0jg"/>
+      </stereotypes>
+      <visibility xmi:id="_6LiX8I-EEe2Ai-NpsAy0jg" label="-"/>
+      <cardinality xmi:id="_6LiX8Y-EEe2Ai-NpsAy0jg" label="1" max="1" min="1"/>
+      <type xmi:id="_6LiX8o-EEe2Ai-NpsAy0jg" name="JLabel">
+        <modelElement href="FareCalculator.uml#_6G02wY-EEe2Ai-NpsAy0jg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_6LiX84-EEe2Ai-NpsAy0jg" name="arrCombo">
+      <modelElement href="FareCalculator.uml#_6HQ7oY-EEe2Ai-NpsAy0jg"/>
+      <stereotypes xmi:id="_6LiX9I-EEe2Ai-NpsAy0jg" name="LegacyStyledElement">
+        <modelElement href="FareCalculator.uml#_6HRisI-EEe2Ai-NpsAy0jg"/>
+      </stereotypes>
+      <visibility xmi:id="_6LiX9Y-EEe2Ai-NpsAy0jg" label="-"/>
+      <cardinality xmi:id="_6LiX9o-EEe2Ai-NpsAy0jg" label="1" max="1" min="1"/>
+      <type xmi:id="_6LiX94-EEe2Ai-NpsAy0jg" name="JComboBox">
+        <modelElement href="FareCalculator.uml#_6GzBkI-EEe2Ai-NpsAy0jg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_6LiX-I-EEe2Ai-NpsAy0jg" name="seatLabel">
+      <modelElement href="FareCalculator.uml#_6HRisY-EEe2Ai-NpsAy0jg"/>
+      <stereotypes xmi:id="_6LiX-Y-EEe2Ai-NpsAy0jg" name="LegacyStyledElement">
+        <modelElement href="FareCalculator.uml#_6HSJwI-EEe2Ai-NpsAy0jg"/>
+      </stereotypes>
+      <visibility xmi:id="_6LiX-o-EEe2Ai-NpsAy0jg" label="-"/>
+      <cardinality xmi:id="_6LiX-4-EEe2Ai-NpsAy0jg" label="1" max="1" min="1"/>
+      <type xmi:id="_6LiX_I-EEe2Ai-NpsAy0jg" name="JLabel">
+        <modelElement href="FareCalculator.uml#_6G02wY-EEe2Ai-NpsAy0jg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_6LiX_Y-EEe2Ai-NpsAy0jg" name="seatText">
+      <modelElement href="FareCalculator.uml#_6HSJwY-EEe2Ai-NpsAy0jg"/>
+      <stereotypes xmi:id="_6LiX_o-EEe2Ai-NpsAy0jg" name="LegacyStyledElement">
+        <modelElement href="FareCalculator.uml#_6HSJwo-EEe2Ai-NpsAy0jg"/>
+      </stereotypes>
+      <visibility xmi:id="_6LiX_4-EEe2Ai-NpsAy0jg" label="-"/>
+      <cardinality xmi:id="_6LiYAI-EEe2Ai-NpsAy0jg" label="1" max="1" min="1"/>
+      <type xmi:id="_6LiYAY-EEe2Ai-NpsAy0jg" name="JTextField">
+        <modelElement href="FareCalculator.uml#_6G5IMY-EEe2Ai-NpsAy0jg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_6LiYAo-EEe2Ai-NpsAy0jg" name="computeFare">
+      <modelElement href="FareCalculator.uml#_6HSJw4-EEe2Ai-NpsAy0jg"/>
+      <stereotypes xmi:id="_6LiYA4-EEe2Ai-NpsAy0jg" name="LegacyStyledElement">
+        <modelElement href="FareCalculator.uml#_6HSw0I-EEe2Ai-NpsAy0jg"/>
+      </stereotypes>
+      <visibility xmi:id="_6LiYBI-EEe2Ai-NpsAy0jg" label="-"/>
+      <cardinality xmi:id="_6LiYBY-EEe2Ai-NpsAy0jg" label="1" max="1" min="1"/>
+      <type xmi:id="_6LiYBo-EEe2Ai-NpsAy0jg" name="JButton">
+        <modelElement href="FareCalculator.uml#_6GxMYI-EEe2Ai-NpsAy0jg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_6LiYB4-EEe2Ai-NpsAy0jg" name="totalFare">
+      <modelElement href="FareCalculator.uml#_6HSw0Y-EEe2Ai-NpsAy0jg"/>
+      <stereotypes xmi:id="_6LiYCI-EEe2Ai-NpsAy0jg" name="LegacyStyledElement">
+        <modelElement href="FareCalculator.uml#_6HSw0o-EEe2Ai-NpsAy0jg"/>
+      </stereotypes>
+      <visibility xmi:id="_6LiYCY-EEe2Ai-NpsAy0jg" label="-"/>
+      <cardinality xmi:id="_6LiYCo-EEe2Ai-NpsAy0jg" label="1" max="1" min="1"/>
+      <type xmi:id="_6LiYC4-EEe2Ai-NpsAy0jg" name="JLabel">
+        <modelElement href="FareCalculator.uml#_6G02wY-EEe2Ai-NpsAy0jg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_6LiYDI-EEe2Ai-NpsAy0jg" name="totalFareText">
+      <modelElement href="FareCalculator.uml#_6HTX4I-EEe2Ai-NpsAy0jg"/>
+      <stereotypes xmi:id="_6LiYDY-EEe2Ai-NpsAy0jg" name="LegacyStyledElement">
+        <modelElement href="FareCalculator.uml#_6HTX4Y-EEe2Ai-NpsAy0jg"/>
+      </stereotypes>
+      <visibility xmi:id="_6LiYDo-EEe2Ai-NpsAy0jg" label="-"/>
+      <cardinality xmi:id="_6LiYD4-EEe2Ai-NpsAy0jg" label="1" max="1" min="1"/>
+      <type xmi:id="_6LiYEI-EEe2Ai-NpsAy0jg" name="JTextField">
+        <modelElement href="FareCalculator.uml#_6G5IMY-EEe2Ai-NpsAy0jg"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_6LiYEY-EEe2Ai-NpsAy0jg" name="main" staticOperation="true">
+      <modelElement href="FareCalculator.uml#_6FyU8I-EEe2Ai-NpsAy0jg"/>
+      <visibility xmi:id="_6LiYEo-EEe2Ai-NpsAy0jg" label="+"/>
+      <cardinality xmi:id="_6LiYE4-EEe2Ai-NpsAy0jg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_6LiYFI-EEe2Ai-NpsAy0jg" name="args">
+        <modelElement href="FareCalculator.uml#_6Fy8AI-EEe2Ai-NpsAy0jg"/>
+        <cardinality xmi:id="_6LiYFY-EEe2Ai-NpsAy0jg" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_6LiYFo-EEe2Ai-NpsAy0jg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_6LiYF4-EEe2Ai-NpsAy0jg" name="FareCalculator">
+      <modelElement href="FareCalculator.uml#_6F1YQI-EEe2Ai-NpsAy0jg"/>
+      <keywords xmi:id="_6LiYGI-EEe2Ai-NpsAy0jg" keyword="create"/>
+      <visibility xmi:id="_6LiYGY-EEe2Ai-NpsAy0jg" label="+"/>
+      <cardinality xmi:id="_6LiYGo-EEe2Ai-NpsAy0jg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_6LiYG4-EEe2Ai-NpsAy0jg">
+        <modelElement href="FareCalculator.uml#_6F1_Uo-EEe2Ai-NpsAy0jg"/>
+        <type xmi:id="_6LiYHI-EEe2Ai-NpsAy0jg" name="FareCalculator">
+          <modelElement href="FareCalculator.uml#_6FsOUI-EEe2Ai-NpsAy0jg"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>
